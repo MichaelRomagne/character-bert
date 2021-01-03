@@ -91,7 +91,7 @@ class CharacterCNN(torch.nn.Module):
                 'n_highway': 2,
                 'embedding': {'dim': 16},
                 'n_characters': 262,
-                'max_characters_per_token': 50
+                'max_characters_per_token': 30
             }
         }
         self.output_dim = output_dim
