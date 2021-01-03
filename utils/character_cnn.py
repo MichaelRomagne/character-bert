@@ -55,7 +55,7 @@ class CharacterMapper:
     Maps individual tokens to sequences of character ids.
     """
 
-    max_word_length = 50
+    max_word_length = 30
 
     # char ids 0-255 come from utf-8 encoding bytes
     # assign 256-300 to special chars
